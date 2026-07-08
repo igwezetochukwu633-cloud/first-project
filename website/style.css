@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(sophie-turner-LZVmvKlchM0-unsplash.jpg);
+    background-size: cover;
+}
+.navbar{
+    margin: auto;
+    width: 1200px;
+    height: 75px;
+}
+.icon{
+    height: 70px;
+    width: 200px;
+    float: left;
+}
+.logo{
+    color: rgb(14, 11, 11);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+span{
+    color: rgb(255, 217, 0);
+    font:  arial;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 64px;
+    font-size: 15px;
+}
+ul li a{
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2 ease-in-out;
+    font-family: arial;
+}
+ul li a:hover{
+    color: aqua;
+}
+.search{
+    float: left;
+    width: 330px;
+    margin-left: 270px;
+}
+.srch{
+    background: transparent;
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(29, 34, 29);
+    margin-top: 13px;
+    border-right: none;
+    color: antiquewhite;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:rgb(221, 200, 8) ;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.content{
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family:  Arial;
+}
+.t1{
+    color: rgb(29, 231, 231);
+}
+.par{
+    letter-spacing: 1px;
+    font-style: italic;
+
+}
+.su{
+    margin-top: 35px;
+    margin-left: 15px;
+    background-color: rgb(243, 18, 18);
+    padding: 12px;
+    cursor: pointer;
+    width: 100px;
+}
+.su:hover{
+    color: aliceblue;
+    background-color: rgb(204, 56, 56) ;
+}
+.lg{
+    margin-top: 35px;
+    margin-left: 120px;
+    background-color: rgb(16, 178, 199);
+    padding: 12px;
+    cursor: pointer;
+    width: 100px;
+    box-shadow: 2px;
+}
+.lg:hover{
+    color: aliceblue;
+    background-color:rgb(19, 133, 148) ;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: 150px;
+    padding: 25px;
+    left: 890px;
+    border: 10px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    color: aquamarine;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.btnn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.btnn:hover{
+    background-color: aqua;
+    color: #fff;
+    
+}
