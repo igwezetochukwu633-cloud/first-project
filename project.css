@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101820;
+    
+}
+.navbar h2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 3px;
+    margin-top: 4px;
+}
+.navbar a{
+    margin: 26px;
+    text-decoration: none;
+    font-weight: bold;
+    color:aliceblue;
+    font-family: Arial;
+}
+.navbar a:hover{
+    color: #fee715;
+}
+.link{
+    margin-top: 16px;
+    margin: 6px;
+    padding: 6px;
+}
+.get{
+    padding: 8px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color:rgb(243, 188, 6);
+    cursor: pointer;
+    font-weight: bold;
+}
+.get:hover{
+    background-color: rgb(231, 209, 4);
+    color: #fff;
+}
+/* main section */
+
+.home{
+    background-color: #fee715;
+}
+.home p{
+    font-family: Arial;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.marquee{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.btn1{
+    padding: 8px;
+    border-radius: 14px;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: rgb(248, 195, 19);
+    color: aliceblue;
+}
+.imgs{
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 12rem;
+    gap: 22rem;
+}
+img{
+    border-radius: 23px;
+    width: 100%;
+    display: block;
+}
+/* Our services */
+.h1s{
+    padding: 12px;
+    height: 23px;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 64px;
+    font-weight: bold;
+    font-size: 3.5rem;
+    
+    font-family: sans-serif;
+}
+.service{
+    background-color: #101820;
+    padding: 10rem ;
+    
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content2 p{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: orange;
+    border: 4px;
+    margin: 50px;
+}
+.content2 ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px;
+    list-style: none;
+    color: #fff;
+    border: 4px;
+}
+.date{
+    margin: 2px;
+    display: grid;
+    width: 1500px;
+    background-color: orange;
+    padding: 14px;
+    margin-top: 2px;
+}
+.date th{
+    text-align: justify;
+    color:#101820;
+    font-size: 2rem;
+}
+.date td{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+
+.sb{
+    margin-top: 6px;
+    padding: 8px;
+    border-radius: 21px;
+    width: 210px;
+    background-color: deeppink;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+}
+.sb:hover{
+    background-color: rgb(230, 67, 154);
+    color: aliceblue;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.book h3{
+    margin-right: 65px;
+}
